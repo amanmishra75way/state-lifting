@@ -1,6 +1,6 @@
 import React from "react";
 
-const child2 = ({ props }) => {
+const Child2 = ({ props }) => {
   return (
     <div>
       <button onClick={() => props.setNumber(props.number - 1)}>-</button>
@@ -8,4 +8,4 @@ const child2 = ({ props }) => {
   );
 };
 
-export default child2;
+export default Child2;
